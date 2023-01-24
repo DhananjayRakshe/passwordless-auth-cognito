@@ -1,0 +1,39 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-passwordlessauthcogn-dev-25611-authRole",
+      "UnauthRoleArn": "arn:aws:iam::596106444065:role/amplify-passwordlessauthcogn-dev-25611-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::596106444065:role/amplify-passwordlessauthcogn-dev-25611-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-passwordlessauthcogn-dev-25611-deployment",
+      "UnauthRoleName": "amplify-passwordlessauthcogn-dev-25611-unauthRole",
+      "StackName": "amplify-passwordlessauthcogn-dev-25611",
+      "StackId": "arn:aws:cloudformation:us-east-1:596106444065:stack/amplify-passwordlessauthcogn-dev-25611/bbbc3ad0-9c2d-11ed-941b-0e187ec002f5",
+      "AmplifyAppId": "d227x4jj6feghb",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-passwordlessauthcogn-dev-25611-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "passwordlessauthcogn": {}
+      },
+      "function": {
+        "passwordlessauthcognCreateAuthChallenge": {
+          "deploymentBucketName": "amplify-passwordlessauthcogn-dev-25611-deployment",
+          "s3Key": "amplify-builds/passwordlessauthcognCreateAuthChallenge-354838672f4678445051-build.zip"
+        },
+        "passwordlessauthcognDefineAuthChallenge": {
+          "deploymentBucketName": "amplify-passwordlessauthcogn-dev-25611-deployment",
+          "s3Key": "amplify-builds/passwordlessauthcognDefineAuthChallenge-6e3673747452464f4647-build.zip"
+        },
+        "passwordlessauthcognPreSignup": {
+          "deploymentBucketName": "amplify-passwordlessauthcogn-dev-25611-deployment",
+          "s3Key": "amplify-builds/passwordlessauthcognPreSignup-6f6c444635366b586a4b-build.zip"
+        },
+        "passwordlessauthcognVerifyAuthChallengeResponse": {
+          "deploymentBucketName": "amplify-passwordlessauthcogn-dev-25611-deployment",
+          "s3Key": "amplify-builds/passwordlessauthcognVerifyAuthChallengeResponse-4a36464755443443734a-build.zip"
+        }
+      }
+    }
+  }
+}
